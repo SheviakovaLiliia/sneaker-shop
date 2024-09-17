@@ -1,0 +1,48 @@
+.cartCard {
+  background-color: #fafafa;
+  width: 898px;
+  min-height: 134px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 23px;
+}
+
+.middleCard {
+  padding-left: 36px;
+  border-left: 2px solid #cbcbcb;
+  display: flex;
+  gap: 36px;
+}
+
+.middleCardName {
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+.middlePrice {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.middlePrice1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.middlePrice2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.deleteBtn {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: none;
+  background-image: url("../../assets/bin.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+}

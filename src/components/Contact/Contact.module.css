@@ -1,0 +1,122 @@
+.contacts {
+  padding: 50px 250px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts h1 {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: left;
+}
+
+.contactsBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul {
+  padding-left: 20px;
+  margin-top: 116px;
+  margin-bottom: 67px;
+}
+
+.ul li {
+  font-size: 18;
+  font-weight: 400;
+  color: #b2b2b2;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+
+.inputs {
+  display: flex;
+  gap: 39px;
+  flex-wrap: wrap;
+}
+
+.inputs input {
+  width: 364px;
+  height: 66px;
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+  padding: 25px 21px;
+}
+
+.message {
+  width: 767px;
+  height: 116px;
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+  padding: 28px 21px;
+}
+
+.submitBtn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #090d1a;
+  width: 131px;
+  height: 53px;
+  border-radius: 10px;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: #363638;
+}
+
+.contactsRight {
+  width: 458px;
+  height: 221px;
+  background-color: #fafafa;
+  padding: 18px 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  align-items: center;
+}
+
+.contactsRight p {
+  font-size: 20pz;
+  font-weight: 600;
+  color: #6e6e6e;
+}
+
+.icons {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+
+.icons img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1450px) {
+  .contacts {
+    padding: 50px 100px;
+  }
+  .inputs {
+    width: 420px;
+    gap: 20px;
+  }
+  .inputs > input {
+    width: 200px;
+  }
+  .message {
+    width: 420px;
+  }
+  .contactsBody {
+    gap: 30px;
+  }
+}

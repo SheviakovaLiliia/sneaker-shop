@@ -1,0 +1,18 @@
+.main {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 28px 250px;
+  margin-bottom: 139px;
+}
+
+.main h1 {
+  margin-bottom: 37px;
+}
+
+.cardList {
+  padding-top: 45px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  gap: 131px;
+  flex-wrap: wrap;
+}

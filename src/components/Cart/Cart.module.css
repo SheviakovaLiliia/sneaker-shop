@@ -1,0 +1,64 @@
+.main {
+  padding: 50px 250px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cartBody {
+  padding-top: 114px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartCards {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  gap: 67px;
+  height: fit-content;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  height: fit-content;
+  padding: 28px;
+  padding-right: 55px;
+  width: 388px;
+  background-color: #fafafa;
+}
+
+.result h2 {
+  align-self: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.result > p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.totalPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid #bbbbbb;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.totalPrice1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.totalPrice2 {
+  font-size: 24px;
+  font-weight: 700;
+  border-top: none;
+}
